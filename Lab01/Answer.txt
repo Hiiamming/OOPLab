@@ -1,0 +1,33 @@
+2.2.6 
+1. first-degree equation (linear equation) with one variable
+- No solution if a = 0, b != 0
+- Infinite solution if a = 0, b = 0
+- One solution if a != 0, x = -b / a
+
+2.The second-degree equation with one variable 
+- No solution if determinant = 0 and D1 != 0 or D2 !=0
+- Infinite solution if determinant = D1 = D2 = 0
+- One solution x = D1 / D, y = D2 / D
+
+6.1 
+1. What happens if users choose “Cancel”? 
+- There will be a box with a message "You choose No"
+
+2. How to customize the options to users, e.g. only two options: “Yes” and “No”, OR “I do” and “I don’t” ?
+- We could use javax.swing.UIManager
+
+6.3 
+- For each line, print space (n - i) times then print "*" (2 * i + 1) times (with i from 0 to n - 1)
+
+6.4 
+- Leap year: Febuary has 29 days
+- Not leap year: Febuary has 28 days
+
+6.5
+- Create array
+- Then sort array
+
+6.6 
+- Create 2 array
+- Adding two array together
+
