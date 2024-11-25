@@ -1,0 +1,41 @@
+1. Is JAVA a Pass by Value or a Pass by Reference programming language?
+
+-  Java is a Pass by value
+
+
+class GFG {
+    // The parameters x and y in add method takes a and b.
+    static int add(int x, int y)
+    {
+        {
+            x += y;
+            return x;
+        }
+    }
+    public static void main(String[] args)
+    {
+        int a = 1, b = 2;
+        add(a, b);
+        // The addition of two values is done using the sum
+        // function and the values of a does not change.
+        System.out.println("After the add function a = "
+                           + a);
+        System.out.println("After the add function b = "
+                           + b);
+    }
+}
+
+Output:
+After the add function a = 1
+After the add function b = 2
+
+Java passes a copy of the value to the method, and for objects, Java passes a copy of the reference to the object, not the real object
+
+2. After the call of swap(jungleDVD, cinderellaDVD) why does the title of these two objects still remain?
+- Because the swap() method is exchanging the values of the title fields between the two objects, but it's not changing the object references themselves
+
+3. After the call of changeTitle(jungleDVD, cinderellaDVD.getTitle()) why is the title of the JungleDVD changed?
+- ChangeTitle() method is modifying the title field of the jungleDVD object using the setter.
+
+4. Write a toString() method for the DigitalVideoDisc class. What should be the return type of this method?
+- It should be String
