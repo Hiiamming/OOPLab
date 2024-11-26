@@ -18,7 +18,7 @@ public class Cart {
         }
     }
 
-    public void addDigitalVideoDisc(DigitalVideoDisc[] dvdLArray) {
+    public void addDigitalVideoDisc(DigitalVideoDisc[] dvdArray) {
         for (DigitalVideoDisc disc : dvdArray) {
             if (qtyOrdered == MAX_NUMBERS_ORDERED) {
                 System.out.println("The cart is almost full. Can't add more discs");
